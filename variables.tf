@@ -52,7 +52,7 @@ variable "instance_memory" {
 
 variable "instance_core_fraction" {
   type    = number
-  default = 5
+  default = 20
 }
 
 variable "boot_disk_type" {
